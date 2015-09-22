@@ -14,7 +14,7 @@ import com.newrelic.metrics.publish.processors.Processor;
 public class NginxAgent extends Agent {
 
     private static final String GUID = "com.ryanchouinard.newrelic.nginx";
-    private static final String VERSION = "0.1.0-dev";
+    private static final String VERSION = "1.0.0";
 
     private Processor connectionsAccepted;
     private Processor connectionsDropped;
