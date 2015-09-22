@@ -8,6 +8,7 @@ I have not yet published the plugin on New Relic's Plugin Central. Everything is
 working great on my servers under my New Relic account, but I can't promise it
 will work for you!
 
+
 ### Motivation
 
 This project exists simply because the [official plugin from Nginx, Inc.](http://newrelic.com/plugins/nginx-inc/13)
@@ -15,7 +16,6 @@ does not support NPI and requires yet another runtime (Python) to be
 installed and maintained on my production servers. I also thought this would be
 a good chance to do something useful while learning more about Java.
 
-----
 
 ## Requirements
 
@@ -24,7 +24,6 @@ a good chance to do something useful while learning more about Java.
 - A running instance of Nginx with the [HTTP stub status module](http://nginx.org/en/docs/http/ngx_http_stub_status_module.html) enabled
 - Network access to New Relic (authenticated proxies are not currently supported)
 
-----
 
 ## Installation
 
@@ -52,7 +51,6 @@ NPI installer's `config/` directory with the following contents:
 The plugin can then be installed using the `--untrusted` flag to npi:
 `./npi install com.ryanchouinard.newrelic.nginx --untrusted`
 
-----
 
 ## Configuration
 
@@ -65,3 +63,8 @@ to do so will open the configuration file in an editor. The configuration file
 is a simple JSON document. The keys should be self-explanatory, but `name` can
 be any string you wish to identify the host in the New Relic dashboards, and
 `status_url` is the full URL to the Nginx stub status page.
+
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
