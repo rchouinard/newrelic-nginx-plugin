@@ -43,6 +43,31 @@ be any string you wish to identify the host in the New Relic dashboards, and
 `status_url` is the full URL to the Nginx stub status page.
 
 
+## Collected Data
+
+Overview
+
+ - Connections
+ - Request rate
+
+![Overview screenshot](/screenshots/overview.png?raw=true)
+
+Connections
+
+ - Active
+ - Idle
+ - Accept rate
+ - Drop rate
+
+![Connections screenshot](/screenshots/connections.png?raw=true)
+
+Requests
+
+ - Active
+ - Rate
+
+![Requests screenshot](/screenshots/requests.png?raw=true)
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
